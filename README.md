@@ -74,8 +74,6 @@ It covers:
 * Running a complete LibreLane flow
 * Understanding the generated run directory
 * Reading timing reports
-* Understanding WNS and TNS
-* Performing DRC and LVS checks
 * Viewing layouts in KLayout and OpenROAD
 * Understanding PDKs and standard-cell libraries
 * Debugging common flow failures
@@ -83,56 +81,8 @@ It covers:
 
 ---
 
-# Repository Structure
 
-```text
-Librelane-Procedure-and-Usage/
-│
-├── README.md
-│
-├── docs/
-│   ├── 01-installation.md
-│   ├── 02-quick-start.md
-│   ├── 03-project-structure.md
-│   ├── 04-writing-config.md
-│   ├── 05-running-flow.md
-│   ├── 06-understanding-runs.md
-│   ├── 07-timing-reports.md
-│   ├── 08-timing-closure.md
-│   ├── 09-power-analysis.md
-│   ├── 10-drc.md
-│   ├── 11-lvs.md
-│   ├── 12-antenna.md
-│   ├── 13-pdk-and-standard-cells.md
-│   ├── 14-debugging.md
-│   ├── 15-troubleshooting.md
-│   ├── 16-reproducibility.md
-│   └── 17-openlane-vs-librelane.md
-│
-├── examples/
-│   ├── counter/
-│   │   ├── README.md
-│   │   ├── src/
-│   │   │   └── counter.v
-│   │   ├── tb/
-│   │   │   └── counter_tb.v
-│   │   └── config.json
-│   │
-│   └── ddr4/
-│       ├── README.md
-│       ├── src/
-│       ├── config.json
-│       └── reference/
-│
-├── images/
-│
-└── .github/
-    └── workflows/
-```
 
-> The repository structure will be expanded as the documentation and examples are updated.
-
----
 
 # Quick Start
 
